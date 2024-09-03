@@ -6,8 +6,7 @@
 
 /*programming hero*/
 
-let days =1;
-while(days <=60 ){
-    console.log(days +"."+' I will invest at least 6 hours every single day for next 60 days');
-    days++;
+let i=1;
+for(i=1; i<=60;i++){
+    console.log(i +"." +"I will invest at least 6 hours every single day for next 60 days");
 }

@@ -4,6 +4,8 @@ Write a loop to print even numbers from 1 to 40. Use continue to skip odd number
 let odd=1;
 for(odd=1;odd<=40;odd++){
     if(odd %2===0){
-        console.log(odd);
+        continue;
     }
+    console.log(odd);
+   
 }
